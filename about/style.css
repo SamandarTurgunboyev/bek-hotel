@@ -161,11 +161,6 @@ body{
     .local{
         margin-left: 45vw;
     }
-    #menyu{
-        display: none;
-        width: 12vw;
-        height: 100%;
-    }
     .malum{
         height: 100vh;
         line-height: 5vh;
@@ -187,5 +182,10 @@ body{
     }
     .menu{
         display: block;
+    }
+    #menyu{
+        display: none;
+        width: 12vw;
+        height: 100%;
     }
 }
