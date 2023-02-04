@@ -184,10 +184,10 @@ body{
     .menui{
         width: 15vw;
         height: 15vw;
-        display: none;
+        display: block;
     }
     .menu{
-        display: none;
+        display: block;
         margin-left: 0vw;
         font-size: 8vw;
         margin-left: 7vw;
