@@ -11,7 +11,7 @@ body{
 }
 .row{
     background-color: rgb(91, 91, 91);
-    min-height: 20rem;
+    min-height: 10rem;
 }
 .name{
     height: 19.8rem;
@@ -83,6 +83,7 @@ body{
 .menui{
     width: 20vw;
     height: 25vw;
+    display: none;
 }
 .menu{
     font-size: 10vw;
@@ -121,6 +122,18 @@ body{
     .nameh{
         font-size: 5vw;
     }
+    .name{
+        width: 80vw;
+        display: inline-block;
+        min-height: 2vw;
+    }
+    .nameh{
+        font-size: 5vw;
+    }
+    .menu{
+        position: absolute;
+        left: 85vw;
+    }
 }
 @media only screen and (max-width: 992px){
     html{
@@ -141,6 +154,7 @@ body{
     .menui{
         width: 15vw;
         height: 15vw;
+        display: block;
     }
     .menu{
         display: block;
