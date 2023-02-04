@@ -163,7 +163,7 @@ body{
         margin-left: 7vw;
     }
     #menyu{
-        display: block;
+        display: none;
         width: 12vw;
         height: 100%;
     }
