@@ -159,7 +159,7 @@ body{
         margin-left: 45vw;
     }
     #menyu{
-        display: none;
+        display: block;
         width: 12vw;
         height: 100%;
     }
