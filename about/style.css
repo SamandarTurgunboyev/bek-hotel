@@ -141,6 +141,9 @@ body{
     .menui{
         width: 21vw;
     }
+    .menu{
+        display: block;
+    }
 }
 @media only screen and (max-width: 992px){
     html{
@@ -159,7 +162,7 @@ body{
         margin-left: 45vw;
     }
     #menyu{
-        display: block;
+        display: none;
         width: 12vw;
         height: 100%;
     }
@@ -181,5 +184,8 @@ body{
     .ol{
         font-size: 3vw;
         text-align: center;
+    }
+    .menu{
+        display: block;
     }
 }
