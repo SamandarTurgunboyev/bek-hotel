@@ -112,6 +112,23 @@ body{
 .an3{
     margin-top: 2vw;
 }
+.qatum{
+    min-height: 20vw;
+}
+.text{
+    margin-top: 8vw;
+}
+.qat{
+    font-size: 3vw;
+    text-align: center;
+}
+.qatimg{
+    width: 49vw;
+    height: 25vw;
+}
+.qatimg2{
+    height: 30vw;
+}
 @media only screen and (max-width: 576px){
     .name{
         width: 80vw;
@@ -120,6 +137,9 @@ body{
     }
     .nameh{
         font-size: 5vw;
+    }
+    .menui{
+        width: 21vw;
     }
 }
 @media only screen and (max-width: 992px){
@@ -137,9 +157,6 @@ body{
     }
     .local{
         margin-left: 45vw;
-    }
-    .menu{
-        display: block;
     }
     #menyu{
         display: none;
