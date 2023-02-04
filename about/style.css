@@ -81,12 +81,14 @@ body{
     margin-top: 2vw;
 }
 .menu{
-    width: 5vw;
-    display: none;
+    width: 8vw;
+    height: 8vw;
+    font-size: 6vw;
     margin-top: 0vw;
     margin-left: 10vw;
     position: absolute;
     z-index: 1;
+    display: none;
 }
 #menyu{
     width: 0vw;
@@ -138,8 +140,16 @@ body{
     .local{
         margin-left: 45vw;
     }
+    .menui{
+        width: 6vw;
+        height: 9vw;
+        margin-left: 12vw;
+    }
     .menu{
-        display: block;
+        margin-left: 0vw;
+        height: 8vw;
+        width: 5vw;
+        font-size: 5vw;
     }
     #menyu{
         display: none;
