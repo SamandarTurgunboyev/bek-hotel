@@ -192,9 +192,14 @@ body{
         height: 30vw;
     }
     .menui{
-        width: 19vw;
-        height: 25vw;
-        border: 1px solid;
+        width: 15vw;
+        height: 15vw;
+    }
+    .menu{
+        display: block;
+        margin-left: 0vw;
+        font-size: 8vw;
+        margin-left: 7vw;
     }
     .menu{
         font-size: 10vw;
