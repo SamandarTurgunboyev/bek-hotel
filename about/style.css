@@ -122,6 +122,9 @@ body{
     width: 49vw;
     height: 25vw;
 }
+.qatimg2{
+    height: 27vw;
+}
 @media only screen and (max-width: 576px){
     .name{
         width: 80vw;
