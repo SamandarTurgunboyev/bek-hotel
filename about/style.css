@@ -191,4 +191,18 @@ body{
     .qatimg.qatimg2{
         height: 30vw;
     }
+    .menui{
+        width: 19vw;
+        height: 25vw;
+    }
+    .menu{
+        font-size: 10vw;
+        margin-top: 0vw;
+        width: 10vw;
+        height: 15vw;
+        margin-left: 10vw;
+        position: absolute;
+        z-index: 1;
+        display: none;
+    }
 }
