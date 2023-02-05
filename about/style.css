@@ -83,6 +83,7 @@ body{
 .menui{
     width: 20vw;
     height: 25vw;
+    display: none;
 }
 .menu{
     font-size: 10vw;
