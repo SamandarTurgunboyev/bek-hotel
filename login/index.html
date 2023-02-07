@@ -33,6 +33,37 @@
     <div class="row img">
         <img src="\img\hotel.jpg" alt="" class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 hotelimg">
     </div>
+    <div class="regis col-12">
+        <div class="col-6 sigin">
+            <div class="sign sin"  onclick="ins(this)">SIG-IN</div>
+            <div class="sign up" onclick="up(this)">SIG-UP</div>
+            <div class="signup" >
+                <a class="href">
+                    <label for="gmail" class="lab mail">E-mail</label>
+                    <input class="in" type="text" name="login" id="gmail">
+                    <label for="pas" class="lab pass">Password</label>
+                    <input class="in" type="password" name="login" id="pas">
+                    <label for="user" class="lab uname">Username</label>
+                    <input class="in" type="text" name="login" id="user">
+                    <label for="age" class="lab ages">Age</label>
+                    <input class="in" type="number" name="login" id="age">
+                    <button class="in" id="sub" onclick="sign(this)">SUBMIT</button>
+                </a>     
+            </div>
+            <div class="signin" id="ins">
+                <a class="href">
+                    <label for="pas" class="lab pass2">Password</label>
+                    <input class="in" type="password" name="login" id="pas">
+                    <label for="user" class="lab uname">Username</label>
+                    <input class="in" type="text" name="login" id="user">
+                    <label for="age" class="lab ages">Age</label>
+                    <input class="in" type="number" name="login" id="age">
+                    <input type="submit" value="submit" class="in" id="sub">
+                </a> 
+            </div>
+        </div>
+        
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
