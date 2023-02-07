@@ -93,10 +93,10 @@ body{
 }
 
 .pass,.uname,.ages{
-    margin-top: 1vw;
+    margin-top: 1.5vw;
 }
 #sub{
-    margin-top: 1.5vw;
+    margin-top: 2vw;
 }
 .href{
     color: black;
@@ -104,6 +104,12 @@ body{
 }
 .href:hover>.lab{
     color: black;
+}
+.href:hover>.wrong{
+    color: red;
+}
+.href:hover>.right{
+    color: white;
 }
 .in{
     width: 20vw;
@@ -130,6 +136,16 @@ body{
 }
 .signin{
     display: none;
+}
+.right,.wrong{
+    font-size: 0.8vw;
+    position: absolute;
+    color: white;
+    margin-left: 5vw;
+}
+.wrong{
+    display: none;
+    color: red;
 }
 @media only screen and (max-width: 576px){
     .name{

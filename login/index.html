@@ -41,12 +41,20 @@
                 <a class="href">
                     <label for="gmail" class="lab mail">E-mail</label>
                     <input class="in" type="text" name="login" id="gmail">
+                    <p class="right" id="remail">Enter your e-mail address</p>
+                    <p class="wrong" id="wemail">The e-mail is invalid</p>
                     <label for="pas" class="lab pass">Password</label>
                     <input class="in" type="password" name="login" id="pas">
+                    <p class="right" id="rpas">password must be more than 8 characters long</p>
+                    <p class="wrong" id="wpas">password length is less than 8 characters</p>
                     <label for="user" class="lab uname">Username</label>
                     <input class="in" type="text" name="login" id="user">
+                    <p class="right" id="ruser">"_" must be in your name</p>
+                    <p class="wrong" id="wuser">"_" does not have this character in your name</p>
                     <label for="age" class="lab ages">Age</label>
                     <input class="in" type="number" name="login" id="age">
+                    <p class="right" id="rage">You must be 18 or older</p>
+                    <p class="wrong" id="wage">you are not old enough</p>
                     <button class="in" id="sub" onclick="sign(this)">SUBMIT</button>
                 </a>     
             </div>
