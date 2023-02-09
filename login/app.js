@@ -55,7 +55,7 @@ function sign(){
         document.getElementById("rage").style.display="none";
     }
     if(document.getElementById("gmail").style.borderColor="lime" && document.getElementById("pas").style.borderColor=="lime" && document.getElementById("user").style.borderColor=="lime" && document.getElementById("age").style.borderColor=="lime"){
-        document.querySelector("#hrefs").setAttribute("href","\index.html")
+        document.querySelector("#hrefs").setAttribute("href","https://bek-hotel.netlify.app/index.html")
     }
 }
 function ins(){
