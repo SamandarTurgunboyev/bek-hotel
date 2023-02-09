@@ -7,7 +7,7 @@ function yop(){
     document.querySelector("#menyu").style.display="none";
     document.querySelector(".menu").setAttribute("onclick","och(this)");
 }
-let ota=document.querySelector(".href");
+let ota=document.querySelector("#hrefs");
 let gmail=ota.children[1];
 let pas=ota.children[5];
 let user=ota.children[9];
