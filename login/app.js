@@ -54,7 +54,7 @@ function sign(){
         document.getElementById("wage").style.display="block";
         document.getElementById("rage").style.display="none";
     }
-    if(age.style.borderColor="lime" && user.style.borderColor=="lime" && pas.style.borderColor=="lime" && gmail.style.borderColor=="lime" && age.stye.borderColor=="lime"){
+    if(document.getElementById("gmail").style.borderColor="lime" && document.getElementById("pas").style.borderColor=="lime" && document.getElementById("user").style.borderColor=="lime" && document.getElementById("age").style.borderColor=="lime"){
         document.querySelector("#hrefs").setAttribute("href","\index.html")
     }
 }
