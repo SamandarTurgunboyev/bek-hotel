@@ -55,7 +55,7 @@ function sign(){
         document.getElementById("rage").style.display="none";
     }
     if(age.style.borderColor="lime" && user.style.borderColor=="lime" && pas.style.borderColor=="lime" && gmail.style.borderColor=="lime" && age.stye.borderColor=="lime"){
-        ota.setAttribute("href","\index.html")
+        ota.getAttribute("href","\index.html")
     }
 }
 function ins(){
