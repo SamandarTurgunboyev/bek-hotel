@@ -69,6 +69,44 @@ body{
     left: 88vw;
     background-color: rgb(62, 62, 62);
 }
+.ol{
+    width: 30vw;
+    min-height: 40vw;
+    background-color: rgb(62, 62, 62);
+    margin-left: 35vw;
+    margin-top: 2vw;
+}
+.mal{
+    text-align: center;
+    min-height: 16vw;
+}
+.select,.summa,.olish{
+    width: 15vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: 7vw;
+    background-color: rgb(128, 128, 128);
+}
+.display{
+    display: none;
+}
+#olindi{
+    height: 7vw;
+    text-align: center;
+    line-height: 7vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+}
+.summa,.olish{
+    line-height: 4vw;
+    margin-top: 1vw;
+    color: white;
+}
+.olish{
+    margin-top: 5vw;
+}
 @media only screen and (max-width: 576px){
     .name{
         width: 80vw;
@@ -101,12 +139,6 @@ body{
     .imgs{
         margin-top: 1vw;
     }
-    .xona{
-        margin-left: 42vw;
-    }
-    .local{
-        margin-left: 45vw;
-    }
     .menui{
         width: 15vw;
         height: 15vw;
@@ -122,24 +154,5 @@ body{
         display: none;
         width: 12vw;
         height: 100%;
-    }
-    .malum{
-        height: 100vh;
-        line-height: 5vh;
-    }
-    .xona{
-        margin-top: 10vw;
-        margin-left: 32vw;
-        width: 40vw;
-    }
-    .local{
-        width: 20vw;
-        height: 17vw;
-        margin-left: 40vw;
-        margin-top: 10vw;
-    }
-    .ol{
-        font-size: 3vw;
-        text-align: center;
     }
 }
