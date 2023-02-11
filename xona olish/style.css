@@ -107,6 +107,15 @@ body{
 .olish{
     margin-top: 5vw;
 }
+.an{
+    margin-top: 18vw;
+}
+.an2{
+    margin-top: 2vw;
+}
+.an3{
+    margin-top: 2vw;
+}
 @media only screen and (max-width: 576px){
     .name{
         width: 80vw;
