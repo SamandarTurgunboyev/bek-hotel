@@ -138,7 +138,7 @@ body{
     display: none;
 }
 .right,.wrong{
-    font-size: 0.8vw;
+    font-size: 1vw;
     position: absolute;
     color: white;
     margin-left: 5vw;
@@ -192,10 +192,10 @@ body{
         font-size: 3vw;
     }
     .right{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .wrong{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 }
 @media only screen and (max-width: 992px){
@@ -220,11 +220,5 @@ body{
         display: none;
         width: 12vw;
         height: 100%;
-    }
-    .right{
-        font-size: 2vw;
-    }
-    .wrong{
-        font-size: 2vw;
     }
 }
