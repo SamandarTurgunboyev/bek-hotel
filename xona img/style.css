@@ -113,3 +113,56 @@ body{
 .an3{
     margin-top: 2vw;
 }
+.imgs{
+    width: 100vw;
+    height: 15vw;
+}
+@media only screen and (max-width: 576px){
+    .name{
+        width: 80vw;
+        display: inline-block;
+        min-height: 2vw;
+    }
+    .nameh{
+        font-size: 5vw;
+    }
+    .name{
+        width: 80vw;
+        display: inline-block;
+        min-height: 2vw;
+    }
+    .nameh{
+        font-size: 5vw;
+    }
+    .menu{
+        position: absolute;
+        left: 85vw;
+    }
+}
+@media only screen and (max-width: 992px){
+    html{
+        font-size: 4.8px;
+    }
+    .link{
+        display: none;
+    }
+    .imgs{
+        margin-top: 1vw;
+    }
+    .menui{
+        width: 15vw;
+        height: 15vw;
+        display: block;
+    }
+    .menu{
+        display: block;
+        margin-left: 0vw;
+        font-size: 8vw;
+        margin-left: 7vw;
+    }
+    #menyu{
+        display: none;
+        width: 12vw;
+        height: 100%;
+    }
+}
