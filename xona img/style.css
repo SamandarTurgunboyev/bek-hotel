@@ -116,6 +116,7 @@ body{
 .imgs{
     width: 100vw;
     height: 40vw;
+    margin-left: 0vw;
 }
 @media only screen and (max-width: 576px){
     .name{
